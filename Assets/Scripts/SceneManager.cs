@@ -8,6 +8,7 @@ public class SceneManager : MonoBehaviour
 {
     public GameObject Menu;
     public GameObject Settings;
+    public GameObject Play;
     
     public void MenuToSettings()
     {
@@ -19,5 +20,17 @@ public class SceneManager : MonoBehaviour
     {
         Menu.SetActive(true);
         Settings.SetActive(false);
+    }
+    
+    public void MenuToPlay()
+    {
+        Play.SetActive(true);
+        Menu.SetActive(false);
+    }
+    
+    public void PlayToMenu()
+    {
+        Menu.SetActive(true);
+        Play.SetActive(false);
     }
 }
