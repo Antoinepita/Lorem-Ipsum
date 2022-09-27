@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 373134129}
   - component: {fileID: 373134128}
   m_Layer: 5
-  m_Name: PlayButton
+  m_Name: ConnectButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -751,7 +751,7 @@ GameObject:
   - component: {fileID: 685674390}
   - component: {fileID: 685674389}
   m_Layer: 0
-  m_Name: SceneManager
+  m_Name: ManageScenes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1615,7 +1615,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 272652205}
-  - {fileID: 1286627327}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1643,12 +1642,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286627326}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1244537485}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1286627328
 MonoBehaviour:
@@ -1662,6 +1661,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f562847d261a44958dd837ec95f1215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  userNameInput: {fileID: 342529777}
+  buttonText: {fileID: 1026522784}
 --- !u!1 &1360999508
 GameObject:
   m_ObjectHideFlags: 0

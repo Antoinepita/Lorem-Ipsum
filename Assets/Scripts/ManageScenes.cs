@@ -4,7 +4,7 @@ using UnityEditor;using UnityEditor.SearchService;
 using UnityEngine;
 
 
-public class SceneManager : MonoBehaviour
+public class ManageScenes : MonoBehaviour
 {
     public GameObject Menu;
     public GameObject Settings;
