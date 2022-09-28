@@ -10,7 +10,7 @@ public class ManageScenes : MonoBehaviour
     public GameObject Settings;
     public GameObject Play;
     
-    public void MenuToSettings()
+    public void MenuToSettings() //changes panels, from Menu to settings, others are self explanatory
     {
         Settings.SetActive(true);
         Menu.SetActive(false);
